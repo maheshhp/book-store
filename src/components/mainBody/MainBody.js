@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ImportBox from '../importBox/ImportBox';
+import AuthorRow from '../authorRow/AuthorRow';
 import './mainBody.css';
 
 class MainBody extends Component {
@@ -13,11 +14,10 @@ class MainBody extends Component {
         </div>
       );
     }
-
     return (
       <div className="MainBody">
-        <div className="BodyContainer">
-          1
+        <div className="AuthorContainer">
+          <AuthorRow />
         </div>
       </div>
     );
