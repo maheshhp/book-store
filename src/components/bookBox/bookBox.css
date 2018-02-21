@@ -1,10 +1,11 @@
 .BookBox{
-  background-color: DodgerBlue;
+  background-color: white;
   box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
-  color: white;
+  color: black;
   width: 220px;
   margin: 10px;
   border-radius: 20px;
+  border: 0px;
 }
 
 .BookImage{
@@ -30,4 +31,9 @@
   background-color: rgba(0,0,0,0);
   font-size: 40px;
   margin-top: -30px;
+}
+
+.BookAuthor{
+  font-size: 0.9rem;
+  float: right;
 }
