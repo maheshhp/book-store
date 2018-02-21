@@ -1,0 +1,33 @@
+.BookBox{
+  background-color: DodgerBlue;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+  color: white;
+  width: 220px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.BookImage{
+  height: 90px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+  background: url('https://images-na.ssl-images-amazon.com/images/I/51VNlzbfpXL._SX331_BO1,204,203,200_.jpg');
+}
+
+.BookDeatils{
+  padding: 2px 16px;
+}
+
+.BookRating{
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.BookLikeButton{
+  float: right;
+  border: 0px;
+  background-color: rgba(0,0,0,0);
+  font-size: 40px;
+  margin-top: -30px;
+}

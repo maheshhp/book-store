@@ -1,9 +1,15 @@
 .AuthorRow{
   width: 100%;
   height: 30%;
-  padding-top: 5%;
 }
 .AuthorRow > h2{
   font-weight: 200;
-  margin-left: 15%;
+  margin-left: 120px;
+}
+.BookRow{
+  padding-left: 120px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  background-color: rgb(230, 131,77);
 }
