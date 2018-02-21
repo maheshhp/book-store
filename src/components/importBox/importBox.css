@@ -1,0 +1,29 @@
+.ImportBox{
+  background-color: rgb(230, 131, 77);
+  width: 60%;
+  height: 30%;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding-top: 5%;
+}
+
+.ImportBox > h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.ImportBox > button{
+  font-size: 1.5rem;
+  background-color: rgba(0,0,0,0);
+  border: 0px;
+  margin-left: 50%;
+  width: 30px;
+  height: 30px;
+  transform: translateX(-40px);
+}
+
+.ImportBox > button > i{
+  text-align: center;
+  font-size: 4rem;
+  color: white
+}

@@ -5,7 +5,7 @@ const defaultState = {
 const reducer = (state = defaultState, action) => {
   switch (action.type) {
     case 'GETBOOKS':
-      return { ...state, savedBooks: action.payload.bookData };
+      return { savedBooks: action.payload.booksData };
     default: return state;
   }
 };

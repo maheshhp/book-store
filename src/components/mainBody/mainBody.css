@@ -3,3 +3,9 @@
   width: 100px;
   flex-grow: 9;
 }
+.BodyContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
