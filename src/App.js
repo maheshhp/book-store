@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import getAction from './redux/actions';
+import Store from './redux/store';
+import Reducer from './redux/reducers';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App" />
-    );
-  }
-}
+const App = props => (
+  <div className="App" />
+);
 
 export default App;
