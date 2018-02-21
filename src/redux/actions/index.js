@@ -1,4 +1,4 @@
-export default bookData => ({
+export const getAction = bookData => ({
   type: 'GETBOOKS',
   payload: {
     bookData,
